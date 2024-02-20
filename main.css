@@ -1,0 +1,59 @@
+/* CSS styles for the form */
+body {
+    margin: 0;
+    padding: 0;
+    font-family:  "Gill Sans Extrabold", sans-serif;
+    background-color: #f9f7f7;
+}
+
+.signup-form {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f4f2f2;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-image: url(".././IMS/assets/cont.jpeg");
+    background-size: cover;
+}
+
+.signup-form h1 {
+    margin-bottom: 20px;
+}
+
+.form-input {
+    margin-bottom: 15px;
+}
+
+.form-input input[type="text"],
+.form-input input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-input input[type="submit"] {
+    background-color: rgb(12, 75, 169);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.form-input input[type="submit"]:hover {
+    background-color: rgb(14, 26, 194);
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 600px) {
+    .signup-form {
+        max-width: 300px;
+    }
+}
